@@ -6,34 +6,38 @@ angular.module('myApp',['ui.router'] )
             .state('home', {
             url:'/',
             templateUrl: 'templates/home.html',
-            controller: function($scope){
-                $scope.title="Home Page";
-            }
+            controller: 'homeCtrl'
         })
          .state('about', {
             url:'/about',
-            templateUrl: 'templates/about.html'
+            templateUrl: 'templates/about.html',
+            controller: 'aboutCtrl'
         })
         .state('login', {
             url:'/login',
-            templateUrl: 'templates/login.html'
+            templateUrl: 'templates/login.html',
+            controller: 'loginCtrl'
         })
         .state('signup', {
             url:'/signup',
-            templateUrl: 'templates/signup.html'
+            templateUrl: 'templates/signup.html',
+            controller: 'signupCtrl'
         })
        
         .state('contactus', {
             url:'/contact',
-            templateUrl: 'templates/contactus.html'
+            templateUrl: 'templates/contactus.html',
+            controller: 'contactusCtrl'
         })
         .state('cards', {
             url:'/cards',
-            templateUrl: 'templates/cards.html'
+            templateUrl: 'templates/cards.html',
+            controller: 'cardsCtrl'
         })
         .state('contactslist', {
             url:'/contactslist',
-            templateUrl: 'templates/contactslist.html'
+            templateUrl: 'templates/contactslist.html',
+            controller: 'contactlistCtrl'
         })
         
     }])
