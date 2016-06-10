@@ -32,12 +32,27 @@ angular.module('myApp',['ui.router'] )
         .state('cards', {
             url:'/cards',
             templateUrl: 'templates/cards.html',
-            controller: 'cardsCtrl'
+            controller: 'cardsCtrl',
+            resolve:{
+                cards: ['$http', function($http){
+                    return $http.get('/api/cards.json').then(function(response){
+                        return response.data;
+                    })
+                }]
+            }
+            
         })
         .state('contactslist', {
             url:'/contactslist',
             templateUrl: 'templates/contactslist.html',
-            controller: 'contactlistCtrl'
+            controller: 'contactlistCtrl',
+            resolve: {
+                contacts: ['$http', function($http){
+                    return $http.get('/api/contacts.json').then(function(response){
+                        return response.data;
+                    })
+                }]
+            }
         })
         
     }])

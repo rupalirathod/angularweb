@@ -1,1 +1,28 @@
 <h3>{{title}}</h3>
+<table class="table table-border">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Address</th>
+            <th>City</th>
+            <th>State</th>
+            <th>Zip Code</th>
+            <th>Cell Number</th>
+            <th>Number</th>
+        </tr>
+    </thead>
+    <tr ng-repeat='contact in contacts'>
+        <td>{{contact.name}}</td>
+        <td>{{contact.emailaddress}}</td>
+        <td>{{contact.address}}</td>
+        <td>{{contact.city}}</td>
+        <td>{{contact.state}}</td>
+        <td>{{contact.zipcode}}</td>
+        <td>{{contact.cellnumber}}</td>
+        <td>{{contact.number}}</td>
+    </tr>
+    <tr>
+        
+    </tr>
+</table>
