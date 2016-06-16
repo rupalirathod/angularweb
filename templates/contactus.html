@@ -1,13 +1,29 @@
 <h3>{{title}}</h3>
 <form>
-    <input type="text" name="firstname" required>
-    <label for="firstname">First Name</label>
-    <input type="text" name="lastname" required>
-    <label for="lastname">First Name</label>
-    <input type="email" name="email" required>
-    <label>Email</label>
-    <input type="tel" name="number">
-    <label>Phone Number</label>
-    <textarea name="message"></textarea>
-    <label for="message">Meassge Please</label>
-</form>
+
+	<div class="form-group"> <!-- Name field -->
+		<label class="control-label " for="name">Name</label>
+		<input class="form-control" id="name" name="name" type="text"/>
+	</div>
+	
+	<div class="form-group"> <!-- Email field -->
+		<label class="control-label requiredField" for="email">Email<span class="asteriskField">*</span></label>
+		<input class="form-control" id="email" name="email" type="text"/>
+	</div>
+	
+	<div class="form-group"> <!-- Subject field -->
+		<label class="control-label " for="subject">Subject</label>
+		<input class="form-control" id="subject" name="subject" type="text"/>
+	</div>
+	
+	<div class="form-group"> <!-- Message field -->
+		<label class="control-label " for="message">Message</label>
+		<textarea class="form-control" cols="40" id="message" name="message" rows="10"></textarea>
+	</div>
+	
+	<div class="form-group">
+		<button class="btn btn-primary " name="submit" type="submit">Submit</button>
+	</div>
+	
+</form>								
+						

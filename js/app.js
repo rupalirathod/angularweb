@@ -21,7 +21,14 @@ angular.module('myApp',['ui.router'] )
         .state('signup', {
             url:'/signup',
             templateUrl: 'templates/signup.html',
-            controller: 'signupCtrl'
+            controller: 'signupCtrl',
+            resolve:{
+                users:['$http', function($http){
+                    return $http.get('/api/users.json').then(function(response){
+                        return response.data;
+                    })
+                }]
+            }
         })
        
         .state('contactus', {
@@ -32,15 +39,7 @@ angular.module('myApp',['ui.router'] )
         .state('cards', {
             url:'/cards',
             templateUrl: 'templates/cards.html',
-            controller: 'cardsCtrl',
-            resolve:{
-                cards: ['$http', function($http){
-                    return $http.get('/api/cards.json').then(function(response){
-                        return response.data;
-                    })
-                }]
-            }
-            
+            controller: 'cardsCtrl'
         })
         .state('contactslist', {
             url:'/contactslist',

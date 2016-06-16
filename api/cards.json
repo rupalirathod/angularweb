@@ -1,32 +1,32 @@
 [{"occasion" : "diwali",
-"image" : "../images/diwali/diwali1.jpg"
+"image" : "images/diwali/diwali1.jpeg"
 	},
 	{"occasion" : "diwali",
-"image" : "../images/diwali/diwali2.jpg"
+"image" : "images/diwali/diwali2.jpeg"
 	},
 	{"occasion" : "diwali",
-"image" : "../images/diwali/diwali3.jpg"
+"image" : "../images/diwali/diwali3.jpeg"
 	},
 	{"occasion" : "diwali",
-"image" : "../images/diwali/diwali4.jpg"
+"image" : "../images/diwali/diwali4.jpeg"
 	},
 	{"occasion" : "diwali",
-"image" : "../images/diwali/diwali5.jpg"
+"image" : "../images/diwali/diwali5.jpeg"
 	},
 	{"occasion" : "diwali",
-"image" : "../images/diwali/diwali6.jpg"
+"image" : "../images/diwali/diwali6.jpeg"
 	},
 	{"occasion" : "diwali",
-"image" : "../images/diwali/diwali7.jpg"
+"image" : "../images/diwali/diwali7.jpeg"
 	},
 	{"occasion" : "christmas",
 "image" : "../images/christmas/christmas1.jpg"
 	},
 	{"occasion" : "christmas",
-"image" : "../images/christmas/christmas2.jpg"
+"image" : "../images/christmas/christmas2.jpeg"
 	},
 	{"occasion" : "christmas",
-"image" : "../images/christmas/christmas3.jpg"
+"image" : "../images/christmas/christmas3.jpeg"
 	},
 	{"occasion" : "christmas",
 "image" : "../images/christmas/christmas4.jpg"
@@ -38,63 +38,63 @@
 "image" : "../images/christmas/christmas6.jpg"
 	},
 	{"occasion" : "birthday",
-"image" : "../images/birthday/birthday1.jpg"
+"image" : "../images/birthday/birthday1.jpeg"
 	},
 	{"occasion" : "birthday",
-"image" : "../images/birthday/birthday2.jpg"
+"image" : "../images/birthday/birthday2.jpeg"
 	},
 	{"occasion" : "birthday",
-"image" : "../images/birthday/birthday3.jpg"
+"image" : "../images/birthday/birthday3.jpeg"
 	},
 	{"occasion" : "birthday",
-"image" : "../images/birthday/birthday4.jpg"
+"image" : "../images/birthday/birthday4.jpeg"
 	},
 	{"occasion" : "birthday",
-"image" : "../images/birthday/birthday5.jpg"
+"image" : "../images/birthday/birthday5.jpeg"
 	},
 	{"occasion" : "birthday",
-"image" : "../images/birthday/birthday6.jpg"
+"image" : "../images/birthday/birthday6.jpeg"
 	},
 	{"occasion" : "birthday",
-"image" : "../images/birthday/birthday7.jpg"
+"image" : "../images/birthday/birthday7.jpeg"
 	},
 	{"occasion" : "babyshower",
-"image" : "../images/babyshower/babyshower1.jpg"
+"image" : "../images/babyshower/babyshower1.jpeg"
 	},
 	{"occasion" : "babyshower",
-"image" : "../images/babyshower/babyshower1.jpg"
+"image" : "../images/babyshower/babyshower1.jpeg"
 	},
 	{"occasion" : "babyshower",
-"image" : "../images/babyshower/babyshower2.jpg"
+"image" : "../images/babyshower/babyshower2.jpeg"
 	},
 	{"occasion" : "babyshower",
-"image" : "../images/babyshower/babyshower3.jpg"
+"image" : "../images/babyshower/babyshower3.jpeg"
 	},
 	{"occasion" : "babyshower",
-"image" : "../images/babyshower/babyshower4.jpg"
+"image" : "../images/babyshower/babyshower4.jpeg"
 	},
 	{"occasion" : "babyshower",
-"image" : "../images/babyshower/babyshower5.jpg"
+"image" : "../images/babyshower/babyshower5.jpeg"
 	},
 	{"occasion" : "babyshower",
-"image" : "../images/babyshower/babyshower6.jpg"
+"image" : "../images/babyshower/babyshower6.jpeg"
 	},
 	{"occasion" : "babyshower",
-"image" : "../images/babyshower/babyshower7.jpg"
+"image" : "../images/babyshower/babyshower7.jpeg"
 	},
 	{"occasion" : "newyear",
-"image" : "../images/newyear/newyear1.jpg"
+"image" : "../images/newyear/newyear1.jpeg"
 	},
 	{"occasion" : "newyear",
-"image" : "../images/newyear/newyear2.jpg"
+"image" : "../images/newyear/newyear2.jpeg"
 	},
 	{"occasion" : "newyear",
-"image" : "../images/newyear/newyear3.jpg"
+"image" : "../images/newyear/newyear3.jpeg"
 	},
 	{"occasion" : "newyear",
-"image" : "../images/newyear/newyear4.jpg"
+"image" : "../images/newyear/newyear4.jpeg"
 	},
 	{"occasion" : "newyear",
-"image" : "../images/newyear/newyear5.jpg"
+"image" : "../images/newyear/newyear5.jpeg"
 	}
 	]
